@@ -79,7 +79,7 @@
     </div>
 
     <div class="footer">
-        PAGE <span id="current">1</span> / 22 <br>
+        PAGE <span id="current">1</span> / 25 <br>
         <small style="font-size: 10px; opacity: 0.5; letter-spacing: 1px; display: block; margin-top: 5px;">
             SWIPE SIDEWAYS • PINCH TO ZOOM
         </small>
@@ -90,12 +90,12 @@
         const currentText = document.getElementById('current');
 
         // Loop to create 22 images (Assumes menu1.jpg, menu2.jpg, etc.)
-        for (let i = 1; i <= 22; i++) {
+        for (let i = 1; i <= 25; i++) {
             const pageDiv = document.createElement('div');
             pageDiv.className = 'page';
             
             const img = document.createElement('img');
-            img.src = `menu${i}.jpg`; 
+            img.src = `menuweng${i}.jpg`; 
             img.loading = "lazy";
             img.alt = `Menu Page ${i}`;
             
